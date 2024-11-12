@@ -18,7 +18,8 @@ int main()
     scanf("%d", &digit);
     while (digit != 0)
     {
-        printf("%d\n", calc(digit));
+        sum = calc(digit);
+        printf("%d\n", sum);
         scanf("%d", &digit);
     }
     return 0;

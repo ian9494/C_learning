@@ -44,6 +44,7 @@ int main()
     while (digit != 0)
     {
         if (digit==2 || digit%2!=0)
+        
             printf("No answer!\n");
         else if (digit>10000)
             printf("Out of scope!\n");

@@ -4,5 +4,5 @@ int main()
     scanf("%d\n", &a);
     printf("hello world");
     printf("aa");
-    return 0;
+    return 0;    
 }

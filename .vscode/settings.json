@@ -61,11 +61,13 @@
     "stdio.h": "c",
     "corecrt.h": "c"
   },
-
   "terminal.integrated.profiles.windows": {
     "Developer Command Prompt for VS 2022": {
       "path": "cmd.exe",
-      "args": ["/k", "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/VsDevCmd.bat"],
+      "args": [
+        "/k",
+        "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/VsDevCmd.bat"
+      ],
       "icon": "terminal-cmd"
     }
   },
