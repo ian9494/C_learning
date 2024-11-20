@@ -10,6 +10,7 @@ int is_palindromic_sum(int a)
         a/=10;
     }
     sum = a2 + reverse;
+    
     while (sum >= 1) 
     {
         int digit = sum % 10;
