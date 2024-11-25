@@ -31,7 +31,7 @@ void Prime_number(int n)
                 if (isPrime(i))
                 {
                     printf("The nearest Prime number less than %d is %d\n",n,i);
-                    break;`
+                    break;
                 }
             }
             
