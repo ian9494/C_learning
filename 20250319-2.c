@@ -31,8 +31,8 @@ int main()
     }
 
     // 先讀第一行的次數
-    fgets(str, sizeof(str), ifp);
-    sscanf(str, "%d", &n);
+    fgets(str, sizeof(str), ifp); // 讀取第一行，存入 str
+    sscanf(str, "%d", &n);  // 從檔案的第一行讀取員工數量
     printf("n = %d\n", n);
 
     Employee employees[MAX_EMPLOYEES];

@@ -18,7 +18,8 @@ int main()
     char str[100]; // 緩衝區
     for (int i = 0; i < 2; i++)
     {
-        rewind(ifp);
+         
+        rewind(ifp); // 這行是為了每次都從檔案的開頭開始讀取
         while (fgets(str, sizeof(str), ifp) != NULL)
         {
             // copy to output.txt twice

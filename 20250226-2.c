@@ -31,7 +31,7 @@ void bicycleCarbonFootprint()
 int main()
 {
     int option;
-    void *(func[4]) = {exit_program, buildingCarbonFootprint, carCarbonFootprint, bicycleCarbonFootprint};
+    void (*func[4])() = {exit_program, buildingCarbonFootprint, carCarbonFootprint, bicycleCarbonFootprint};
     
     while (1)
     {
@@ -42,7 +42,7 @@ int main()
             {
                 break;
             }
-            ((void (*)())func[option])();
+            func[option]();
         }
     }
     return 0;
