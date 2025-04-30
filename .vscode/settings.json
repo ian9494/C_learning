@@ -72,5 +72,8 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "Developer Command Prompt for VS 2022",
-  "workbench.colorTheme": "GDScript"
+  "workbench.colorTheme": "GDScript",
+  "terminal.integrated.env.windows": {
+    "CHCP": "65001"
+  }
 }

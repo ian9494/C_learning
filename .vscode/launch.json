@@ -42,8 +42,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ian20/Coding",
-      "program": "c:/Users/ian20/Coding/build/Debug/outDebug",
+      "cwd": "c:/Users/ian20/C_learning",
+      "program": "c:/Users/ian20/C_learning/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

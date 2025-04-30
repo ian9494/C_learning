@@ -1,0 +1,11 @@
+Choose an option (1-4):
+1. Print age
+2. Print name
+3. Print name and age
+4. Print name, age, and height
+0. Exit
+Age: 19
+Name: Ian
+Name: Ian, Age: 19
+Name: Ian, Age: 19, Height: 163
+Exiting...
